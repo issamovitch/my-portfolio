@@ -1,0 +1,48 @@
+/* Loader.css */
+
+html {
+    animation: unlockScroll 0s ease 4.8s forwards;
+    scrollbar-gutter: stable;
+    overflow: hidden;
+}
+
+@keyframes unlockScroll {
+    to { overflow: auto; }
+}
+
+@keyframes orbit { to { transform: rotate(360deg); } }
+@keyframes pulse { 0%,100% { opacity:1; transform:scale(1); } 50% { opacity:0.4; transform:scale(0.85); } }
+@keyframes bar { 0% { width:0%; } 100% { width:100%; } }
+@keyframes fadeUp { from { opacity:0; transform:translateY(16px); } to { opacity:1; transform:translateY(0); } }
+@keyframes blink { 0%,100%{opacity:1} 50%{opacity:0} }
+
+.loader-wrap { display:flex; flex-direction:column; align-items:center; justify-content:center; min-height:100vh; gap:32px; background:#fff;
+    position: fixed;
+    inset: 0;
+    z-index: 9999;
+    animation: hideLoader .8s ease 4s forwards;
+
+}
+.orbit-stage { position:relative; width:100px; height:100px; }
+.orbit-ring { position:absolute; inset:0; border-radius:50%; border:1.5px solid transparent; }
+.ring1 { border-top-color:#534AB7; border-right-color:#534AB7; animation:orbit 1.2s linear infinite; }
+.ring2 { inset:12px; border-top-color:#1D9E75; border-left-color:#1D9E75; animation:orbit 1.8s linear infinite reverse; }
+.ring3 { inset:24px; border-top-color:#D85A30; border-right-color:#D85A30; animation:orbit 1s linear infinite; }
+.center-dot { position:absolute; inset:44px; border-radius:50%; background:#534AB7; animation:pulse 1.5s ease-in-out infinite; }
+.progress-track { width:220px; height:3px; background:#f0f0f0; border-radius:99px; overflow:hidden; }
+.progress-fill { height:100%; background:linear-gradient(90deg,#534AB7,#1D9E75); animation:bar 2.4s cubic-bezier(0.4,0,0.2,1) infinite; }
+.dots-row { display:flex; gap:8px; }
+.dot { width:7px; height:7px; border-radius:50%; background:#ccc; animation:pulse 1.2s ease-in-out infinite; }
+.dot:nth-child(2) { animation-delay:0.2s; background:#534AB7; }
+.dot:nth-child(3) { animation-delay:0.4s; background:#1D9E75; }
+.dot:nth-child(4) { animation-delay:0.6s; background:#D85A30; }
+.label { font-size:13px; color:#888; letter-spacing:0.08em; animation:blink 2.4s ease-in-out infinite; }
+.code-block { display:flex; flex-direction:column; gap:4px; }
+.code-line { font-family:monospace; font-size:12px; color:#aaa; animation:fadeUp 0.6s ease both; }
+.code-line span { color:#534AB7; }
+.code-line em { color:#1D9E75; font-style:normal; }
+.c1{animation-delay:0.1s} .c2{animation-delay:0.3s} .c3{animation-delay:0.5s}
+
+@keyframes hideLoader {
+    to { opacity: 0; pointer-events: none; visibility: hidden; }
+}

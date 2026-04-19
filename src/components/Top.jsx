@@ -1,0 +1,43 @@
+import {useEffect, useRef} from "react";
+import Typed from "typed.js";
+
+export default function Top(){
+
+
+    const typedElement = useRef(null);
+    
+    useEffect(() => {
+        const typedStrings = "React Developer, React Native Developer, Web Designer, Mobile Developer";
+        const typed = new Typed(typedElement.current, {
+            strings: typedStrings.split(', '),
+            typeSpeed: 60,
+            backSpeed: 20,
+            smartBackspace: false,
+            loop: true
+        });
+        return () => {
+            typed.destroy();
+        };
+    }, [])
+    
+    return (
+        <section className="top-header" id="top-header">
+            <div className="container text-center">
+                <div className="row">
+                    <div className="col-md-12">
+                        <img src="/img/profile-pic.png" alt="Anamul Hasan" />
+                    </div>
+
+                    <div className="col-md-12">
+                        <h1>I'm Issamovitch</h1>
+                    </div>
+
+                    <div className="col-md-12">
+                        <p style={{display: 'none'}}>React Developer, React Native Developer, Web Designer, Mobile Developer</p>
+                        <h2 ref={typedElement}></h2>
+                    </div>
+                </div>
+            </div>
+        </section>
+    );
+}
