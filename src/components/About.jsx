@@ -36,7 +36,7 @@ export default function About({smoothScroll}) {
                         <header className="section-header">
                             <h2>About Me</h2>
                         </header>
-                        <h3><strong>Name:</strong> Issamovitch</h3>
+                        <h3><strong>Name:</strong> Issam Hamed</h3>
                         <h4><strong>Profession:</strong> React Developer | Next.js | React Native</h4>
                         <p>
                             I build fast, scalable digital products using React, Next.js, and React Native. My focus is simple: deliver clean, high-performance solutions that solve real business problems and drive measurable results.
@@ -66,10 +66,10 @@ export default function About({smoothScroll}) {
                             </div>
 
                             <div className="skill-name">
-                                <p>React Native</p><p>90%</p>
+                                <p>React Native</p><p>80%</p>
                             </div>
                             <div className="progress">
-                                <div className="progress-bar" role="progressbar" aria-valuenow="90"></div>
+                                <div className="progress-bar" role="progressbar" aria-valuenow="80"></div>
                             </div>
 
                             <div className="skill-name">
