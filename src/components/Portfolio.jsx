@@ -63,6 +63,21 @@ const projects = [
             "Improved page load performance and SEO scores (Core Web Vitals / Lighthouse improvements).",
             "Collaborated within a large team setup on an enterprise-scale frontend system."
         ]
+    },
+    {
+        id: 4,
+        title: "FusionBot AI",
+        subtitle: "React.js / Laravel / Inertia.js",
+        img: "/img/portfolio-5.jpg",
+        preview: "https://fusionbotai.com/",
+        details: "https://github.com/issamovitch/FusionBot",
+        category: "web-dev",
+        bullets: [
+            "Built a production AI chatbot platform with dashboard interfaces and AI Agent workflows.",
+            "Developed responsive frontend features using React.js with backend integration through Laravel/Inertia.js.\n",
+            "Implemented product workflows, user-facing SaaS features, and API-connected functionality.\n",
+            "Collaborated on full-stack feature delivery across frontend and backend systems.",
+        ]
     }
 ];
 
