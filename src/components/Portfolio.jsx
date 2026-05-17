@@ -38,7 +38,7 @@ const projects = [
         details: null,
         category: "web-dev",
         bullets: [
-            "Built a multi-module healthcare dashboard for scheduling, patient records, and document workflows.",
+            "Built a multi-module Turkish healthcare dashboard for scheduling, patient records, and document workflows.",
             "Supported 500+ active users and 10,000+ completed appointments.",
             "Built performant calendar UI handling dense time-slot data with minimal re-renders.",
             "Developed dynamic form systems with Zod validation for complex data entry flows.",
