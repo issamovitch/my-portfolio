@@ -14,7 +14,7 @@ const projects = [
     },
     {
         id: 2,
-        title: "Zid Platform",
+        title: "Zid SaaS E-commerce Platform",
         subtitle: "React / TypeScript / Next.js / React Query / Radix UI",
         img: "/img/portfolio-2.jpg",
         preview: "https://zid.sa/en",
@@ -31,7 +31,7 @@ const projects = [
     },
     {
         id: 3,
-        title: "Cordelia",
+        title: "Cordelia Patient Management",
         subtitle: "React / TypeScript / React Router / Zod / Framer Motion",
         img: "/img/portfolio-3.jpg",
         preview: "https://www.cordelia.app/",
@@ -65,8 +65,8 @@ const projects = [
         ]
     },
     {
-        id: 4,
-        title: "FusionBot AI",
+        id: 5,
+        title: "FusionBot SaaS AI Chatbot Builder",
         subtitle: "React.js / Laravel / Inertia.js",
         img: "/img/portfolio-5.jpg",
         preview: "https://fusionbotai.com/",
@@ -77,6 +77,24 @@ const projects = [
             "Developed responsive frontend features using React.js with backend integration through Laravel/Inertia.js.\n",
             "Implemented product workflows, user-facing SaaS features, and API-connected functionality.\n",
             "Collaborated on full-stack feature delivery across frontend and backend systems.",
+        ]
+    },
+    {
+        id: 6,
+        title: "Liwan E-commerce Platform",
+        subtitle: "React.js / Laravel / Inertia.js",
+        img: "/img/portfolio-6.jpg",
+        preview: "https://liwan.com.kw",
+        details: null,
+        category: "web-dev",
+        bullets: [
+            "Built with Next.js, React, and TypeScript on a headless architecture (Magento backend)",
+            "Full bilingual Arabic/English experience with RTL layout switching",
+            "SSR/SSG for SEO and performance, optimized image delivery via Next.js Image",
+            "Custom product carousels and \"Shop by Look\" interactive hotspots",
+            "Complete shopping flow: catalog, filters, cart, checkout, video reviews",
+            "Integrated WhatsApp Business, Google Tag Manager, and SEO (meta/OG tags, canonical URLs)",
+            "Stack: Next.js · React · TypeScript · Tailwind · Magento (headless) · i18n (AR/EN + RTL) · GTM",
         ]
     }
 ];
