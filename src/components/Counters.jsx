@@ -29,7 +29,7 @@ export default function Counters() {
                     <CounterItem end={10} icon="fa-calendar" label="Years of Experience" />
                     <CounterItem end={40} icon="fa-check" label="Completed Projects" />
                     <CounterItem end={25} icon="fa-users" label="Clients Worked With" />
-                    <CounterItem end={12} icon="fa-mobile" label="Mobile Apps Developed" />
+                    <CounterItem end={6} icon="fa-mobile" label="Mobile Apps Developed" />
                 </div>
             </div>
         </section>
