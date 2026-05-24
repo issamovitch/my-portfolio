@@ -6,7 +6,7 @@ export default function Services(){
                 <header className="section-header">
                     <h3>My Services</h3>
                     <p>
-                        I build fast, scalable digital products that don’t just look good, they drive real business results. Using modern technologies like React, Next.js, and React Native, 
+                        I build fast, scalable digital products that don’t just look good, they drive real business results. Using modern technologies like React, Next.js, and Typescript,
                         I help businesses launch high-performing websites, web apps, and mobile experiences that are optimized for speed, usability, and growth from day one.
                     </p>
                 </header>
@@ -30,9 +30,10 @@ export default function Services(){
                     <div className="col-sm-6 col-md-4">
                         <div className="single-service">
                             <span></span>
-                            <div className="service-icon"> <i className="fa fa-android"></i> </div>
-                            <h4>Mobile Apps (iOS & Android)</h4>
-                            <p>React Native / Expo <br/>Reach users everywhere with one efficient codebase</p>
+                            <div className="service-icon"> <i className="fa fa-cubes"></i> </div>
+                            <h4>SaaS Platform Development</h4>
+                            <p>Multi-tenant Architecture / Subscriptions / Dashboards <br/>
+                                MVP to production-ready SaaS, end to end</p>
                         </div>
                     </div>
                     <div className="col-sm-6 col-md-4">

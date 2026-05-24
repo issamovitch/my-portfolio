@@ -4,7 +4,7 @@ export default function Footer() {
             <div className="container">
                 <div className="copyright">
                     <p>
-                        &copy; {new Date().getFullYear()} <a target="_blank" href="https://issamvitch.dev/">Issamovitch.dev</a><br/>
+                        &copy; {new Date().getFullYear()} <a target="_blank" href="https://issamovitch.dev/">Issamovitch.dev</a><br/>
                         All rights reserved.
                     </p>
                 </div>

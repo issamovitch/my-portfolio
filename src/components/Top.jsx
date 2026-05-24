@@ -7,7 +7,7 @@ export default function Top(){
     const typedElement = useRef(null);
     
     useEffect(() => {
-        const typedStrings = "React Developer, React Native Developer, Web Designer, Mobile Developer";
+        const typedStrings = "Next.js Developer, React Developer, TypeScript Developer, Frontend Engineer";
         const typed = new Typed(typedElement.current, {
             strings: typedStrings.split(', '),
             typeSpeed: 60,
@@ -33,7 +33,7 @@ export default function Top(){
                     </div>
 
                     <div className="col-md-12">
-                        <p style={{display: 'none'}}>React Developer, React Native Developer, Web Designer, Mobile Developer</p>
+                        <p style={{display: 'none'}}>React Developer, Next.js Developer, TypeScript Developer, Frontend Engineer</p>
                         <h2 ref={typedElement}></h2>
                     </div>
                 </div>

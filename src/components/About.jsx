@@ -37,9 +37,9 @@ export default function About({smoothScroll}) {
                             <h2>About Me</h2>
                         </header>
                         <h3><strong>Name:</strong> Issam Hamed</h3>
-                        <h4><strong>Profession:</strong> React Developer | Next.js | React Native</h4>
+                        <h4><strong>Profession:</strong> React Developer | Next.js | TypeScript</h4>
                         <p>
-                            I build fast, scalable digital products using React, Next.js, and React Native. My focus is simple: deliver clean, high-performance solutions that solve real business problems and drive measurable results.
+                            I build fast, scalable digital products using React, Next.js, and TypeScript. My focus is simple: deliver clean, high-performance solutions that solve real business problems and drive measurable results.
                         </p>
                         <p>
                             From custom web apps to mobile experiences, I design and develop systems that are reliable, maintainable, and optimized from day one. I prioritize performance, usability, and clear architecture over unnecessary complexity.
@@ -66,7 +66,7 @@ export default function About({smoothScroll}) {
                             </div>
 
                             <div className="skill-name">
-                                <p>React Native</p><p>80%</p>
+                                <p>React Query / TanStack</p><p>85%</p>
                             </div>
                             <div className="progress">
                                 <div className="progress-bar" role="progressbar" aria-valuenow="80"></div>

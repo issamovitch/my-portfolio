@@ -39,7 +39,7 @@ export default function Contact() {
                     <div className="col-md-6">
                         <div className="contact-info">
                             <p><i className="fa fa-user"></i>Issamovitch (Issam Hamed)</p>
-                            <p><i className="fa fa-tag"></i>React Developer | Next.js | React Native</p>
+                            <p><i className="fa fa-tag"></i>React Developer | Next.js | Typescript</p>
                             <p><i className="fa fa-map-marker"></i>Porto, Portugal</p>
                             <p>
                                 <i className="fa fa-envelope"></i>
